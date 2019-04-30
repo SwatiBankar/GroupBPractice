@@ -1,0 +1,47 @@
+package AbstractionProgram;
+
+public abstract class Employee {
+	String Employeename;
+	int salary;
+	
+		Employee(String Employeename,int salary)
+		{
+			this.Employeename=Employeename;
+			this.salary=salary;
+			
+		}
+		public abstract void salaryPurHour();
+		public String getName()
+		{
+			return Employeename;
+		}
+		public String setname()
+		{
+			this.Employeename=Employeename;
+		}
+		
+		public int getSalary()
+		{
+			return salary;
+		}
+		public int setSalary()
+		{
+		this.salary=salary;
+        }	
+		
+	}
+public static void main(String[] args)
+{
+	Employee e=new Employee();
+	System.out.print(e.Employeename("swati bankar"));
+	System.out.print(e.salary(18175));
+	
+}
+
+
+
+
+
+	
+
+

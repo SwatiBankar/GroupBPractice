@@ -1,0 +1,46 @@
+
+public class StarNew1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//int i=4;
+char ch='a';
+int i;
+   for( i=0;i<=4;i++)
+   {
+	   for(int space=4;space>=i;space--)
+	   {
+		   System.out.print(" ");
+	   }
+    
+   for(int j=0;j<=i;j++)
+   {
+	   if(j==0)
+	   {
+	      System.out.println("*"+" ");
+	      break;
+       }
+	   if(j==1)
+	   {
+		   System.out.println(ch+" ");
+		   ch++;
+	   }
+	   else if(j==2)
+	   {
+		   System.out.println(j);
+	   }
+   }
+  }
+}
+
+}
+
+   
+		   
+		   
+	
+
+	
+
+
+

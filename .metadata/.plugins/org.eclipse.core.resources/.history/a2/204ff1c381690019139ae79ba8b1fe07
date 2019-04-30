@@ -1,0 +1,14 @@
+
+public class ThirdException {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try{
+			System.out.println(statement-1);
+			FileInputStream fis=new FileInputStream("");
+		}
+		
+
+	}
+
+}

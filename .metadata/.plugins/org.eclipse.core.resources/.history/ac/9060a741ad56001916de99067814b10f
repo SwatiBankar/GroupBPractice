@@ -1,0 +1,24 @@
+package AbstractionProgram;
+
+public abstract class Employee {
+	String Employeename;
+	int salary;
+	
+		Employee(String Employeename,int salary)
+		{
+			this.Employeename=Employeename;
+			this.salary=salary;
+			
+		}
+		public String getName()
+		{
+			return Employeename;
+		}
+		public String setname()
+		{
+			this.Employeename=Employeename;
+		}
+		
+	
+
+}

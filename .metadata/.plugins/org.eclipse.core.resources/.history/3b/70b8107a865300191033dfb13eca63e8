@@ -1,0 +1,8 @@
+package ArrayPrograms;
+
+public class Test2 {
+
+	Polymorphisum2 t=new Polymorphisum2();
+	char c=5,d=6;
+	System.out.print(t.add(c,d));
+}

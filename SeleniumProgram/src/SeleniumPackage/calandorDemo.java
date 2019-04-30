@@ -1,0 +1,25 @@
+package SeleniumPackage;
+
+public class calandorDemo {
+	public static void testcase01()
+	{
+	
+	webDriverManager.Cromedriver().setup();
+	webdriver driver=new cromedriver();
+	driver.get("https://www.goibibo.com");
+	//click on departure
+	driver.manager().timeout().implicitlywait(10,TimeUnit.SECONDS);
+	driver switchto().frame("notification frame 2514428c7");
+	driver.findelement(By.xpath(""));
+	driver switchto().defaultContent();
+	thresd.sleep(1000)
+	driver.findelement(By.xpath"");
+	driver.findelement(By.xpath"");
+	}
+	public static void main(string[] args)
+	{
+		testcase01();
+	}	
+	
+
+}

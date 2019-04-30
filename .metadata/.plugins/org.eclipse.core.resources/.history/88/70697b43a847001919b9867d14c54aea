@@ -1,0 +1,14 @@
+import java.util.TreeSet;
+
+public class Treeset {
+	
+	public static void main(String[] args)
+	{
+		TreeSet t=new Treeset();
+		t.add(10);
+		t.add(20);
+		t.add('c');
+	}
+	
+
+}

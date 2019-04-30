@@ -1,0 +1,31 @@
+package AbstractionProgram;
+
+public class Calculation extends companyEmployee {
+	
+	
+	
+
+	public Calculation(String name, String address, int number, int salary) {
+		super("swati", "samarth nagar", 21, 18000);
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		companyEmployee e=new Calculation("swati","samarth nagar",21, 18000);
+		System.out.print(e.name);
+		System.out.print(e.address);
+		System.out.print(e.number);
+		//System.out.print(e.salary);
+		System.out.print(e.calculateSalary());
+	}
+
+	@Override
+	public int calculateSalary() {
+		// TODO Auto-generated method stub
+		return 18000*4;
+				
+	}
+}
+

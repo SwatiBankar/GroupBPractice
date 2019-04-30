@@ -1,0 +1,9 @@
+package ArrayPrograms;
+
+public class Polymorphisum2 {
+	public int add(int a,int b)
+	{
+		return a+b;
+	}
+
+}
