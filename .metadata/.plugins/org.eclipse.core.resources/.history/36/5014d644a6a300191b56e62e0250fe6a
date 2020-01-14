@@ -1,0 +1,14 @@
+package ArrayPrograms;
+
+public class PrintingStringRahul {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		for(int a=1;a<=26;a++)
+		{
+			System.out.println(a);
+		}
+
+	}
+
+}

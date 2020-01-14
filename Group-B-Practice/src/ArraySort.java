@@ -1,0 +1,20 @@
+import java.util.TreeSet;
+
+public class ArraySort {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		TreeSet<Integer> t=new TreeSet<Integer>();
+		int a[]={1,3,2,4,6,5};
+		int i;
+		
+		for( i=0;i<=a.length-1;i++)
+		{
+			t.add(a[i]);
+			
+		}
+		System.out.print(t);
+
+	}
+
+}

@@ -1,0 +1,33 @@
+package Inheritance;
+
+public class TypeCasting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		double CalculateMark=85.18;
+		int grade=(int)CalculateMark;
+		System.out.println(grade);
+		
+		int CalMark=30;
+		double Grade=(double)CalMark;
+		System.out.println(Grade);
+		
+		long l=1234567891;
+		int i=(int)l;
+		System.out.println(i);
+		
+		short s2=23;
+		int i2=(int)s2;
+		System.out.println(i2);
+		
+		
+		float f=2345.10f;
+		int z=(int)f;
+		System.out.println(z);
+		
+		
+	}
+
+}

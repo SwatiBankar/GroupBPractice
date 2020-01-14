@@ -1,0 +1,16 @@
+
+public class FirstLetterCapital {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name="i love uddhav";
+		//name=name.substring(0,1).toUpperCase()+name.substring(1).toLowerCase();
+		//System.out.print(name);
+		
+		
+		name=name.substring(0,1).toUpperCase()+name.substring(1).toUpperCase().toLowerCase();
+		System.out.print(name);
+
+	}
+
+}

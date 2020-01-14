@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;FirstMavenProject-HybridFramework&apos;" deleteContents="false" description="Delete resource &apos;FirstMavenProject-HybridFramework&apos;" element1="/FirstMavenProject-HybridFramework" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1576220928691"/>&#x0A;<refactoring comment="Delete resource &apos;Mavenpackage&apos;" deleteContents="false" description="Delete resource &apos;Mavenpackage&apos;" element1="/Mavenpackage" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1576221032195"/>
+</session>

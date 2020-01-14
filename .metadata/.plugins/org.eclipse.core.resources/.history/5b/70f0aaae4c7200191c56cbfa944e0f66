@@ -1,0 +1,24 @@
+import java.util.ArrayList;
+
+public class MiddleArrayElementAddition {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int [] a={7,2,2,5,10,7};
+		ArrayList al=new ArrayList();
+		for(int i=0;i<=a.length;i++)
+		{
+			if((a.length-1)/2==a[i])
+        {
+        	System.out.println((a.length-1)+a[i]);
+        	
+        	System.out.print(al.add(a[i]+1));
+        			
+     	}
+        else
+        	System.out.print(a[i]);
+		}
+
+	}
+
+}

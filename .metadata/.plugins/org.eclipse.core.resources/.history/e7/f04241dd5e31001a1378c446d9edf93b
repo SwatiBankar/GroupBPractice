@@ -1,0 +1,54 @@
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class CheckingGmailLogin {
+     public static WebDriver driver;
+	public static void main(String[] args) throws InterruptedException {
+		WebDriverManager.chromedriver().setup();
+		driver=new ChromeDriver();
+		Thread.sleep(3000);
+		driver.get("https://www.Google.com");
+		driver.findElement(By.xpath("//a[@class='gb_g']")).click();
+		
+		System.out.println("get window handle of parent-window"+driver.getWindowHandle());
+		
+		driver.findElement(By.xpath("//ul[@class='h-c-header__cta-list header__nav--ltr']//a[contains(text(),'Sign in')]")).click();
+		System.out.println("clicked on sign in..new window is open");
+		
+		
+		Set<String> allWindow=driver.getWindowHandles();
+		
+		String parentWindow=driver.getWindowHandle();
+		
+		for(String child:allWindow)
+		{
+			if(!parentWindow.equals(child))
+			{
+				driver.switchTo().window(child);
+				Thread.sleep(3000);
+				WebElement txtUserName=driver.findElement(By.xpath("//input[@id='identifierId']"));
+				txtUserName.sendKeys("swatibankar88@gmail.com");
+				System.out.println("email entered");
+				driver.findElement(By.xpath("//span[@class='RveJvd snByac']")).click();
+				
+				System.out.println("Userid Enter");
+				
+				WebElement txtpassword=driver.findElement(By.xpath("//input[@type='password']"));
+				txtpassword.sendKeys("P9921819419");
+				System.out.println("password entered");
+				
+				
+				
+			}
+		}
+	}
+
+}
+
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13795" started-at="2019-12-02T06:15:23Z" finished-at="2019-12-02T06:15:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13795" started-at="2019-12-02T06:15:23Z" finished-at="2019-12-02T06:15:37Z">
+      <class name="Regration.Regrassion">
+        <test-method status="PASS" signature="TC_01()[pri:0, instance:Regration.Regrassion@36f6e879]" name="TC_01" duration-ms="13778" started-at="2019-12-02T11:45:23Z" finished-at="2019-12-02T11:45:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01 -->
+      </class> <!-- Regration.Regrassion -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

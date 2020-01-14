@@ -1,0 +1,17 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class WindowHandle2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("driver.Chrome.driver","D:\\JAR\\New folder\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://www.canarabank.in");
+		
+		driver.findElement(By.xpath("//button[contains(text(),'NetBanking')]")).click();
+
+	}
+
+}

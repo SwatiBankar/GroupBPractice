@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="studentName" value="swati"/>
+  <parameter name="studentNo" value="1234"/>
+  <test name="Test(failed)">
+    <parameter name="studentName" value="swati"/>
+    <parameter name="studentNo" value="1234"/>
+    <classes>
+      <class name="TestNgPackage.FirstTest">
+        <methods>
+          <include name="logInApplicatin"/>
+        </methods>
+      </class> <!-- TestNgPackage.FirstTest -->
+      <class name="TestNgPackage.TestingAnnotations">
+        <methods>
+          <include name="m2"/>
+          <include name="m4"/>
+          <include name="m5"/>
+          <include name="m6"/>
+          <include name="m7"/>
+          <include name="m8"/>
+          <include name="m10"/>
+          <include name="m9"/>
+        </methods>
+      </class> <!-- TestNgPackage.TestingAnnotations -->
+      <class name="TestNgPackage.TestCaseTesting">
+        <methods>
+          <include name="TC_01"/>
+        </methods>
+      </class> <!-- TestNgPackage.TestCaseTesting -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,35 @@
+package collection;
+
+import java.util.ArrayList;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList Fname=new ArrayList();
+		Fname.add("Uddhav");
+		Fname.add("Kunal");
+		Fname.add("Akash");
+		
+		ArrayList Mname=new ArrayList();
+		Mname.add("Arjun");
+		Mname.add("Dilip");
+		Mname.add("Dilip");
+		
+		ArrayList Lname=ArrayList();
+		Lname.add("Pachrne");
+		Lname.add("Bankar");
+		Lname.add("Bankar");
+		
+		
+		ArrayList FullName=new ArrayList();
+		for(int i=0;i<=Fname.size();i++)
+		{
+			FullName.add(Fname.get(i)+" "+Mname.get(i)+" "+Lname.get(i));
+		}
+		System.out.print(FullName);
+
+	}
+
+}

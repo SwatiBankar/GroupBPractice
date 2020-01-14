@@ -17,7 +17,7 @@ public class ThirdException {
 			System.out.println("statement-4");
 			try{
 				int i=10/0;
-			}catch (ArithmeticException e1)
+			}catch (ArithmeticException e11)
 			{
 				System.out.println("statement-6");
 			}

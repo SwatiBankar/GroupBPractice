@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+ <suite name="parameterization test suit">
+<parameter name="unic-value" value="suite level parameter" />
+  <test thread-count="5" name="CheckingParameterAnnotations">
+    <classes>
+      <class name="TestNgPackage.SignUp"/>
+      <class name="TestNgPackage.yahooMailTest"/>
+      <class name="TestNgPackage.TestCaseTesting"/>
+      <class name="TestNgPackage.ChekingParameterAnotation"/>
+      <class name="TestNgPackage.GroupTest"/>
+      <class name="TestNgPackage.TestNGPractice"/>
+      <class name="TestNgPackage.FirstTest"/>
+      <class name="TestNgPackage.TestClassforTestNG"/>
+      <class name="TestNgPackage.TestNgGroupA"/>
+      <class name="TestNgPackage.TestingAnnotations"/>
+      <class name="TestNgPackage.TestNgGroupB"/>
+      <class name="TestNgPackage.TestingTestNG"/>
+      <class name="TestNgPackage.TestNgGroupC"/>
+      <class name="TestNgPackage.DataProviderUse"/>
+      <class name="TestNgPackage.testNgDependancy"/>
+      <class name="AssertChecking.softAssertion"/>
+      <class name="TestNgPackage.TestNggroups"/>
+    </classes>
+  </test> <!-- CheckingParameterAnnotations -->
+</suite> <!-- SuiteChecku -->

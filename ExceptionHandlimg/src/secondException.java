@@ -15,13 +15,13 @@ public class secondException {
 		{
 			
 	
-		}catch(InterruptedException e)
-		{
-			
 		}
-		
-		
-
 	}
-
+	
 }
+
+		
+
+	
+
+

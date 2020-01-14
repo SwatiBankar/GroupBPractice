@@ -1,0 +1,17 @@
+import java.awt.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class WebTableHandling {
+	public static void main(String args[])
+	{
+		System.setProperty("webdriver.chrome.driver", "D:\\JAR\\New folder\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://www.bseindia.com/markets/Equity/newsensexstream.aspx");
+		java.util.List<WebElement> securityList=driver.findElements(By.xpath("//tbody[@id='idTbody']/tr/td[2]"));
+	}
+
+}

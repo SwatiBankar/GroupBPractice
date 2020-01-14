@@ -1,0 +1,46 @@
+
+public class FirstLetterReplaceString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="i like testing shastra";
+		//char[] ch =s.toCharArray();
+		String[] s1=s.split("");
+		int i=0;
+		for(int ;i<s.length();i++)
+		{
+			System.out .print(s1[i]);
+			
+			
+		}
+		System.out .print(s1[i].toUpperCase());
+		
+	}
+}
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			

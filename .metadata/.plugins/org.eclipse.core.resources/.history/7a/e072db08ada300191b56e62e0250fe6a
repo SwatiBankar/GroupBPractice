@@ -1,0 +1,31 @@
+package ArrayPrograms;
+
+public class PrintingStringRahul2 {
+	
+	public static void main(String[] args) {
+		//static char [] ch={'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
+		    String s="abcdefghijklmnopqrstuvwxyz";
+			  char [] ch=s.toCharArray();	
+			 int i = 0;
+		
+		for(char output:ch)
+		{
+			System.out.println(ch[i]);
+			i++;
+	
+		}
+		
+		
+		if(ch[i]==r||ch[i]==a||ch[i]==h||ch[i]==u||ch[i]==l)
+		{
+			
+		}
+		else
+		{
+			System.out.println();
+		}
+	}
+	}
+		
+
+}

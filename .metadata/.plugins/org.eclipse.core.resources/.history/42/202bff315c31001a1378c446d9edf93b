@@ -1,0 +1,51 @@
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class WindowHandle2 {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "D:\\JAR\\New folder\\chromedriver.exe");
+		
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://www.canarabank.in");
+		System.out.println("window handel of a parent"+driver.getWindowHandle());
+		
+		driver.findElement(By.xpath("//button[@class='btn btn-default']/child::i[@class='fa fa-globe']")).click();
+		System.out.println("new window opened");
+		
+       Set<String> allwindow=driver.getWindowHandles();
+       
+       String parentWindow=driver.getWindowHandle();
+       
+       for(String child:allwindow)
+       {
+    	   if(!parentWindow.equals(child))
+    	   {
+    		   driver.switchTo().window(child);
+    		   Thread.sleep(1000);
+    		   WebElement textUserId=driver.findElement(By.xpath("//input[@name='fldPassword']/parent::div"));
+    			textUserId.sendKeys("swapna");
+    			System.out.println("usreid enteerd");
+    			driver.findElement(By.xpath("//input[@name='fldPassword']")).sendKeys("12345");
+    			System.out.println("password entered");
+    		   
+    	   }
+    	   
+       }
+		
+       
+       
+       
+       
+       WebElement textUserId=driver.findElement(By.xpath("//input[@name='fldPassword']/parent::div"));
+		textUserId.sendKeys("swapna");
+		System.out.println("usreid enteerd");
+
+	}
+
+}

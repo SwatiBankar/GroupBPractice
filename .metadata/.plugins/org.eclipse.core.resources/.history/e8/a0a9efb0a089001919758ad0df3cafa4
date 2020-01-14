@@ -1,0 +1,16 @@
+package TestNgPackage;
+
+public class Test {
+
+	public static String baseurl="https://www.guru99.com/all-about-testng-and-selenium.html";
+	public static WebDriver driver=new FirefoxDriver();
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		driver.get(baseurl);
+		
+		
+
+	}
+
+}

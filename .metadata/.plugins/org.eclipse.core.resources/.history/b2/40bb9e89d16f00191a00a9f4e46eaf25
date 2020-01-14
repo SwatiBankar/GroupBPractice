@@ -1,0 +1,35 @@
+package collection;
+
+import java.util.ArrayList;
+
+public class Test{
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ArrayList<String> Name=new ArrayList();
+		Name.add("swati");
+		Name.add("swapna");
+		Name.add("Reva");
+		
+		
+		ArrayList MName=new ArrayList<String>();
+		MName.add("dilip");
+		MName.add("balu");
+		MName.add("mohan");
+		
+		ArrayList LName=new ArrayList<String>();
+		LName.add("bankar");
+		LName.add("kharat");
+		LName.add("sharma");
+		
+		
+		
+		
+		
+		
+	}
+
+}

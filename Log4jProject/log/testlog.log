@@ -1,0 +1,5 @@
+2019-12-12 14:54:46,781 - Log4jPropertiesFileConfigueExample -INFO - log4j Appender configuration is succesful
+2019-12-12 15:02:13,616 - Log4jDemo -INFO - This is information message
+2019-12-12 15:02:13,620 - Log4jDemo -ERROR - This is an error message
+2019-12-12 15:02:13,620 - Log4jDemo -WARN - This is warning message
+2019-12-12 15:02:13,620 - Log4jDemo -FATAL - This is a fetal message

@@ -3,6 +3,8 @@ package StringBufferPackage;
 public class SBtest {
 
 	public static void main(String[] args) {
+		Object ob = new Object();
+	
 		StringBuffer sb=new StringBuffer();
 		StringBuffer s=new StringBuffer("swati");
 		System.out.println(s);

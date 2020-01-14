@@ -1,0 +1,19 @@
+
+public class StaticBlockTest {
+	static int i=10;
+	int k=11;
+	static
+	{
+		i=20;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 StaticBlockTest t1=new StaticBlockTest();
+		 System.out.println(t1.i);
+		 System.out.println(i);
+		 System.out.print(t1.k);
+	
+	}
+
+}

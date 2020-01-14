@@ -1,0 +1,11 @@
+
+public class FirstTask {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       System.setProperty("webdriver.Chrome.driver", "D:\\JAR\\New folder\\chromedriver.exe")
+		
+		
+	}
+
+}
